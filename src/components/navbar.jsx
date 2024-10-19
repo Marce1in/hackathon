@@ -7,7 +7,7 @@ export default function Navbar({corFonte, corClara, corEscura}) {
     <>
       <nav className={`${corFonte} flex flex-row justify-between items-center mx-[5vw] h-16`}>
 
-        <h2 className="text-xl">SulDestino</h2>
+        <h2 className="text-xl">Sul<span className="font-semibold">Destino</span></h2>
 
         <ul className="flex flex-row gap-5 font-bold max-lg:hidden">
           <li className="hover:underline underline-offset-8">
